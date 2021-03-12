@@ -1,6 +1,5 @@
-<h1 align="center">Ansible Role: MariaDB</h1>
-
-<div align="center">
+Ansible Role: MariaDB
+===
 
 [![role: ubzyhd.mariadb](https://img.shields.io/ansible/role/53560?color=blueviolet&logo=Ansible&style=flat-square)](https://galaxy.ansible.com/ubzyhd/mariadb) [![travis-ci build status](https://img.shields.io/travis/UbzyHD/ansible-role-mariadb/main?label=build&logo=travis-ci&style=flat-square)](https://travis-ci.org/UbzyHD/ansible-role-mariadb)
 
@@ -8,17 +7,18 @@
 
 [![https://galaxy.ansible.com/ubzyhd/mariadb](https://img.shields.io/ansible/quality/53560?label=Quality%20Score&logo=ansible&style=flat-square)](https://galaxy.ansible.com/ubzyhd/mariadb) [![https://galaxy.ansible.com/ubzyhd/mariadb](https://img.shields.io/ansible/role/d/53560?logo=Ansible&style=flat-square)](https://galaxy.ansible.com/ubzyhd/mariadb)
 
-</div>
+---
 
 ## Contents
 
-- [Contents](#contents)
-- [Requirements](#requirements)
-- [Role Variables](#role-variables)
-- [Dependencies](#dependencies)
-- [Example Playbook](#example-playbook)
-- [License](#license)
-- [Author Information](#author-information)
+- [Ansible Role: MariaDB](#ansible-role-mariadb)
+  - [Contents](#contents)
+  - [Requirements](#requirements)
+  - [Role Variables](#role-variables)
+  - [Dependencies](#dependencies)
+  - [Example Playbook](#example-playbook)
+  - [License](#license)
+  - [Author Information](#author-information)
 
 Requirements
 ------------
