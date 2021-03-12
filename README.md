@@ -1,13 +1,6 @@
-Ansible Role: MariaDB
-===
+<h1 align="center">Ansible Role: MariaDB</h1>
 
-<p align="center">
-<a href="https://galaxy.ansible.com/ubzyhd/mariadb" > <img src="https://img.shields.io/ansible/role/53560?color=blueviolet&logo=Ansible&style=flat-square">
-<br>
-<img src="https://img.shields.io/badge/dynamic/json?label=Description&style=flat-square&query=description&url=https%3A%2F%2Fgalaxy.ansible.com%2Fapi%2Fv1%2Fcontent%2F53560%2F">
-<br>
-
-</p>
+<div align="center">
 
 [![role: ubzyhd.mariadb](https://img.shields.io/ansible/role/53560?color=blueviolet&logo=Ansible&style=flat-square)](https://galaxy.ansible.com/ubzyhd/mariadb)
 
@@ -21,17 +14,17 @@ Ansible Role: MariaDB
 
 ![HitCount](http://hits.dwyl.io/ubzyhd/ansible-role-mariadb.svg)
 
+</div>
 
 ## Contents
 
-- [Ansible Role: MariaDB](#ansible-role-mariadb)
-  - [Contents](#contents)
-  - [Requirements](#requirements)
-  - [Role Variables](#role-variables)
-  - [Dependencies](#dependencies)
-  - [Example Playbook](#example-playbook)
-  - [License](#license)
-  - [Author Information](#author-information)
+- [Contents](#contents)
+- [Requirements](#requirements)
+- [Role Variables](#role-variables)
+- [Dependencies](#dependencies)
+- [Example Playbook](#example-playbook)
+- [License](#license)
+- [Author Information](#author-information)
 
 Requirements
 ------------
