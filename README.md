@@ -2,11 +2,11 @@
 
 <div align="center">
 
-[![role: ubzyhd.mariadb](https://img.shields.io/ansible/role/53560?color=blueviolet&logo=Ansible&style=flat-square)](https://galaxy.ansible.com/ubzyhd/mariadb) [![https://galaxy.ansible.com/ubzyhd/mariadb](https://img.shields.io/badge/dynamic/json?color=red&style=flat-square&label=Minimum%20Ansible%20Version%3A&query=min_ansible_version&url=https%3A%2F%2Fgalaxy.ansible.com%2Fapi%2Fv1%2Fcontent%2F53560%2F)](https://galaxy.ansible.com/ubzyhd/mariadb) [![travis-ci build status](https://img.shields.io/travis/UbzyHD/ansible-role-mariadb/main?label=build&logo=travis-ci&style=flat-square)](https://travis-ci.org/UbzyHD/ansible-role-mariadb)
+[![role: ubzyhd.mariadb](https://img.shields.io/ansible/role/53560?color=blueviolet&logo=Ansible&style=flat-square)](https://galaxy.ansible.com/ubzyhd/mariadb) [![travis-ci build status](https://img.shields.io/travis/UbzyHD/ansible-role-mariadb/main?label=build&logo=travis-ci&style=flat-square)](https://travis-ci.org/UbzyHD/ansible-role-mariadb)
 
 ![Description from Ansible](https://img.shields.io/badge/dynamic/json?label=Description&style=flat-square&query=description&url=https%3A%2F%2Fgalaxy.ansible.com%2Fapi%2Fv1%2Fcontent%2F53560%2F)
 
-[![https://galaxy.ansible.com/ubzyhd/mariadb](https://img.shields.io/ansible/quality/53560?label=Quality%20Score&logo=ansible&style=flat-square)](https://galaxy.ansible.com/ubzyhd/mariadb) [![https://galaxy.ansible.com/ubzyhd/mariadb](https://img.shields.io/ansible/role/d/53560?logo=Ansible&style=flat-square)](https://galaxy.ansible.com/ubzyhd.mariadb)
+[![https://galaxy.ansible.com/ubzyhd/mariadb](https://img.shields.io/ansible/quality/53560?label=Quality%20Score&logo=ansible&style=flat-square)](https://galaxy.ansible.com/ubzyhd/mariadb) [![https://galaxy.ansible.com/ubzyhd/mariadb](https://img.shields.io/ansible/role/d/53560?logo=Ansible&style=flat-square)](https://galaxy.ansible.com/ubzyhd/mariadb)
 
 </div>
 
