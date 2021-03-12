@@ -7,17 +7,27 @@ Ansible Role: MariaDB
 
 [![GitHub release](https://img.shields.io/github/release/ubzyhd/ansible-role-mariadb)](https://GitHub.com/ubzyhd/ansible-role-mariadb/releases/) [![GitHub tag](https://img.shields.io/github/tag/ubzyhd/ansible-role-mariadb)](https://GitHub.com/ubzyhd/ansible-role-mariadb/tags/)
 
-[![HitCount](http://hits.dwyl.io/ubzyhd/ansible-role-mariadb.svg)](http://hits.dwyl.io/ubzyhd/ansible-role-mariadb)
+![HitCount](http://hits.dwyl.io/ubzyhd/ansible-role-mariadb.svg)
 
 ## Contents
 
-- [Role Info & Build Status](#role-info--build-status)
-- [Supported OS's](#supported-oss)
-- [Role Variables](#role-variables)
-- [Example Playbook](#example-playbook)
-- [License](#license)
-- [Author Information](#author-information)
-- [Credits](#credits)
+- [Ansible Role: MariaDB](#ansible-role-mariadb)
+  - [Contents](#contents)
+  - [Role Info & Build Status](#role-info--build-status)
+  - [Requirements](#requirements)
+  - [Role Variables](#role-variables)
+  - [Dependencies](#dependencies)
+  - [Example Playbook](#example-playbook)
+  - [License](#license)
+  - [Author Information](#author-information)
+
+## Role Info & Build Status
+
+| Branch | Master | Development |
+| ------ | :----: | :---------: |
+| Ansible Version: | ![https://galaxy.ansible.com/ubzyhd/mariadb](https://img.shields.io/badge/dynamic/json?color=red&style=flat-square&label=Minimum%20Ansible%20Version%3A&query=min_ansible_version&url=https%3A%2F%2Fgalaxy.ansible.com%2Fapi%2Fv1%2Fcontent%2F53560%2F)      |              |
+| Statistics:  | [![https://galaxy.ansible.com/ubzyhd/mariadb](https://img.shields.io/ansible/role/d/53560?color=blue&logo=ansible&style=flat-square)](https://galaxy.ansible.com/ubzyhd.mariadb)<br>[![https://galaxy.ansible.com/ubzyhd/mariadb](https://img.shields.io/badge/dynamic/json?color=blue&logo=ansible&style=flat-square&label=Quality%20Score:&query=quality_score&url=https%3A%2F%2Fgalaxy.ansible.com%2Fapi%2Fv1%2Fcontent%2F53560%2F)](https://galaxy.ansible.com/ubzyhd.mariadb)<br>[![https://galaxy.ansible.com/ubzyhd/mariadb](https://img.shields.io/badge/dynamic/json?color=blue&logo=ansible&style=flat-square&label=Content%20Score%3A&query=content_score&url=https%3A%2F%2Fgalaxy.ansible.com%2Fapi%2Fv1%2Fcontent%2F53560%2F)](https://galaxy.ansible.com/ubzyhd.mariadb)<br>[![https://galaxy.ansible.com/ubzyhd/mariadb](https://img.shields.io/badge/dynamic/json?color=blue&logo=ansible&style=flat-square&label=Metadata%20Score%3A&query=metadata_score&url=https%3A%2F%2Fgalaxy.ansible.com%2Fapi%2Fv1%2Fcontent%2F53560%2F)](https://galaxy.ansible.com/ubzyhd.mariadb)       |              |
+
 
 Requirements
 ------------
