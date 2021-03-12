@@ -1,0 +1,6 @@
+---
+- name: main.yml | Installing MariaDB for {{ ansible_os_family }}
+  include_tasks: "{{ ansible_os_family }}.yml"
+
+- name: main.yml | UFW
+  include_tasks: ufw.yml

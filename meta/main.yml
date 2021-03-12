@@ -1,0 +1,19 @@
+---
+dependencies: []
+
+galaxy_info:
+  role_name: mariadb
+  author: ubzyhd
+  description: Install MariaDB and provide a way of managing databases.
+
+  license: AGPLv3
+
+  min_ansible_version: 2.9
+
+  platforms:
+    - name: Debian
+
+  galaxy_tags:
+    - mysql
+    - mariadb
+    - database

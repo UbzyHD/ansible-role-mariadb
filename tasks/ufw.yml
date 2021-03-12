@@ -1,0 +1,11 @@
+---
+- name: ufw.yml | Check if UFW is installed
+  package_facts:
+    manager: "auto"
+
+- name: ufw.yml | Allowing Database traffic through UFW
+  ufw:
+    rule: allow
+    port: "3306"
+    state: enabled
+  when: "'ufw' in ansible_facts.packages"

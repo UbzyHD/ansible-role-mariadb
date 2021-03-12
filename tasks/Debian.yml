@@ -1,0 +1,51 @@
+---
+# Include variables and define needed variables.
+- name: packages-Debian.yml | Include OS-specific variables.
+  include_vars: "vars-{{ ansible_os_family }}.yml"
+
+- name: packages-Debian.yml | Adding MariaDB apt key.
+  apt_key:
+    url: https://mariadb.org/mariadb_release_signing_key.asc
+    state: present
+
+- name: packages-Debian.yml | Adding MariaDB.list
+  template:
+    src: MariaDB.list.j2
+    dest:  /etc/apt/sources.list.d/MariaDB.list
+    owner: root
+    group: root
+    mode: 0644
+
+- name: packages-Debian.yml | Updating Server
+  apt:
+    update_cache: true
+    upgrade: dist
+    autoremove: true
+    purge: true
+
+- name: packages-Debian.yml | Installing MariaDB
+  apt:
+    name: mariadb-server
+    update_cache: true
+    autoremove: true
+    autoclean: true
+    install-recommends: false
+    state: present
+
+- name: packages-Debian.yml | Installing MySQL-python
+  apt:
+    name: python-mysqldb
+    update_cache: true
+    autoremove: true
+    autoclean: true
+    install-recommends: false
+    state: present
+
+- name: packages-Debian.yml | Modifying my.cnf
+  template:
+    src: my.cnf.j2
+    dest:  /etc/mysql/my.cnf
+    owner: root
+    group: root
+    mode: 0644
+  notify: restart mariadb
