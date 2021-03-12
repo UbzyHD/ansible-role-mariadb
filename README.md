@@ -1,4 +1,5 @@
-<center>Ansible Role: MariaDB</center>
+<p align="center">
+Ansible Role: MariaDB
 =========
 
 <center>
