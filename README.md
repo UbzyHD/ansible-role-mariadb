@@ -1,4 +1,4 @@
-<p align="center">Ansible Role: MariaDB</p>
+Ansible Role: MariaDB
 ===
 
 <p align="center">
@@ -24,7 +24,7 @@
 
 ## Contents
 
-- [<p align="center">Ansible Role: MariaDB</p>](#ansible-role-mariadb)
+- [Ansible Role: MariaDB](#ansible-role-mariadb)
   - [Contents](#contents)
   - [Requirements](#requirements)
   - [Role Variables](#role-variables)
