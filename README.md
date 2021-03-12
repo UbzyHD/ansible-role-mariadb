@@ -1,7 +1,13 @@
-<p align="center">Ansible Role: MariaDB
-=========
+<p align="center">Ansible Role: MariaDB</p>
+===
 
-<center>
+<p align="center">
+<a href="https://galaxy.ansible.com/ubzyhd/mariadb" > <img src="https://img.shields.io/ansible/role/53560?color=blueviolet&logo=Ansible&style=flat-square">
+<br>
+<img src="https://img.shields.io/badge/dynamic/json?label=Description&style=flat-square&query=description&url=https%3A%2F%2Fgalaxy.ansible.com%2Fapi%2Fv1%2Fcontent%2F53560%2F">
+<br>
+
+</p>
 
 [![role: ubzyhd.mariadb](https://img.shields.io/ansible/role/53560?color=blueviolet&logo=Ansible&style=flat-square)](https://galaxy.ansible.com/ubzyhd/mariadb)
 
@@ -15,12 +21,10 @@
 
 ![HitCount](http://hits.dwyl.io/ubzyhd/ansible-role-mariadb.svg)
 
-</center>
-
 
 ## Contents
 
-- [Ansible Role: MariaDB</center>](#ansible-role-mariadbcenter)
+- [<p align="center">Ansible Role: MariaDB</p>](#ansible-role-mariadb)
   - [Contents](#contents)
   - [Requirements](#requirements)
   - [Role Variables](#role-variables)
