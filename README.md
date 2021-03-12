@@ -2,12 +2,15 @@ Ansible Role: MariaDB
 ===
 
 <p>
-  <a href="https://galaxy.ansible.com/ubzyhd/mariadb"><img src="https://img.shields.io/ansible/role/53560?color=blueviolet&logo=Ansible&style=flat-square"></a> <a href="https://travis-ci.org/UbzyHD/ansible-role-mariadb"><img src="https://img.shields.io/travis/UbzyHD/ansible-role-mariadb/main?label=build&logo=travis-ci&style=flat-square"></a>
-  <p>
-  <img src="https://img.shields.io/badge/dynamic/json?label=Description&style=flat-square&query=description&url=https%3A%2F%2Fgalaxy.ansible.com%2Fapi%2Fv1%2Fcontent%2F53560%2F">
-  <p>
-  <img src="https://img.shields.io/ansible/quality/53560?label=Quality%20Score&logo=ansible&style=flat-square">
-  <img src="https://img.shields.io/ansible/role/d/53560?logo=Ansible&style=flat-square">
+<a href="https://travis-ci.org/UbzyHD/ansible-role-mariadb"><img src="https://img.shields.io/travis/UbzyHD/ansible-role-mariadb/main?label=build&logo=travis-ci&style=flat-square"></a>
+<p>
+<a href="https://galaxy.ansible.com/ubzyhd/mariadb"><img src="https://img.shields.io/ansible/role/53560?color=blueviolet&logo=Ansible&style=flat-square"></a>
+<p>
+<img src="https://img.shields.io/badge/dynamic/json?label=Description&style=flat-square&query=description&url=https%3A%2F%2Fgalaxy.ansible.com%2Fapi%2Fv1%2Fcontent%2F53560%2F">
+<p>
+<img src="https://img.shields.io/ansible/quality/53560?label=Quality%20Score&logo=ansible&style=flat-square">
+<p>
+<img src="https://img.shields.io/ansible/role/d/53560?logo=Ansible&style=flat-square">
 </p>
 
 ## Contents
