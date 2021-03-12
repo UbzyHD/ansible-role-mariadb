@@ -1,9 +1,9 @@
 Ansible Role: MariaDB
 =========
 
-[![role: ubzyhd.mariadb](https://img.shields.io/ansible/role/42671?color=blueviolet&logo=ansible&style=flat-square)](https://galaxy.ansible.com/ubzyhd/mariadb)
+[![role: ubzyhd.mariadb](https://img.shields.io/ansible/role/53560?color=blueviolet&logo=ansible&style=flat-square)](https://galaxy.ansible.com/ubzyhd/mariadb)
 
-![Description from Ansible](https://img.shields.io/badge/dynamic/json?label=Description&style=flat-square&query=description&url=https%3A%2F%2Fgalaxy.ansible.com%2Fapi%2Fv1%2Fcontent%2F42671%2F)
+![Description from Ansible](https://img.shields.io/badge/dynamic/json?label=Description&style=flat-square&query=description&url=https%3A%2F%2Fgalaxy.ansible.com%2Fapi%2Fv1%2Fcontent%2F53560%2F)
 
 [![GitHub release](https://img.shields.io/github/release/ubzyhd/ansible-role-mariadb)](https://GitHub.com/ubzyhd/ansible-role-mariadb/releases/) [![GitHub tag](https://img.shields.io/github/tag/ubzyhd/ansible-role-mariadb)](https://GitHub.com/ubzyhd/ansible-role-mariadb/tags/)
 
