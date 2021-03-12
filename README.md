@@ -1,7 +1,5 @@
 <h1 align="center">Ansible Role: MariaDB</h1>
 
----
-
 <div align="center">
 
 [![role: ubzyhd.mariadb](https://img.shields.io/ansible/role/53560?color=blueviolet&logo=Ansible&style=flat-square)](https://galaxy.ansible.com/ubzyhd/mariadb) [![travis-ci build status](https://img.shields.io/travis/UbzyHD/ansible-role-mariadb/main?label=build&logo=travis-ci&style=flat-square)](https://travis-ci.org/UbzyHD/ansible-role-mariadb)
