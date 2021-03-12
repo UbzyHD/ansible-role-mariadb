@@ -7,8 +7,6 @@ Ansible Role: MariaDB
 
 [![https://galaxy.ansible.com/ubzyhd/mariadb](https://img.shields.io/ansible/quality/53560?label=Quality%20Score&logo=ansible&style=flat-square)](https://galaxy.ansible.com/ubzyhd/mariadb) [![https://galaxy.ansible.com/ubzyhd/mariadb](https://img.shields.io/ansible/role/d/53560?logo=Ansible&style=flat-square)](https://galaxy.ansible.com/ubzyhd/mariadb)
 
----
-
 ## Contents
 
 - [Ansible Role: MariaDB](#ansible-role-mariadb)
