@@ -17,65 +17,43 @@ Ansible Role: MariaDB
 
 - [Ansible Role: MariaDB](#ansible-role-mariadb)
   - [Contents](#contents)
-  - [Supported & Tested OS's](#supported--tested-oss)
   - [Requirements](#requirements)
   - [Role Variables](#role-variables)
+  - [Dependencies](#dependencies)
   - [Example Playbook](#example-playbook)
   - [License](#license)
-
-Supported & Tested OS's
----
-Debian:
-
-- 10 - Buster
-- 9 - Stretch
+  - [Author Information](#author-information)
 
 Requirements
 ------------
 
-This role assumes it will be deployed on a pre-configured server that doesn't already have MariaDB installed. If installed, then the setup process will be skipped unless the force_setup has been defined.
+Any pre-requisites that may not be covered by Ansible itself or the role should be mentioned here. For instance, if the role uses the EC2 module, it may be a good idea to mention in this section that the boto package is required.
 
 Role Variables
 --------------
-Global variables:
-```yaml
-# not set unless
-force_setup: 
-```
 
-OS specific variables:
-```yaml
-mariadb_repo_url: https://mirrors.ukfast.co.uk/sites/mariadb/repo/10.5/debian
-```
+A description of the settable variables for this role should go here, including any variables that are in defaults/main.yml, vars/main.yml, and any variables that can/should be set via parameters to the role. Any variables that are read from other roles and/or the global scope (ie. hostvars, group vars, etc.) should be mentioned here as well.
+
+Dependencies
+------------
+
+A list of other roles hosted on Galaxy should go here, plus any details in regards to parameters that may need to be set for other roles, or variables that are used from other roles.
 
 Example Playbook
 ----------------
-```yaml
----
-- name: Database
-  hosts: all
-  remote_user: ansible
-  become: yes
 
-  gather_facts: true
+Including an example of how to use your role (for instance, with variables passed in as parameters) is always nice for users too:
 
-  pre_tasks:
-
-    - name: Database | Pinging hosts
-      action: ping
-
-    - name: Database | Install Python if not already present.
-      raw: test -e /usr/bin/python || (apt -y update && apt install -y python-minimal)
-      changed_when: false
-
-    - name: Database | Gather facts after Python is definitely present.
-      setup:
-
-  roles:
-    - ubzyhd.mariadb
-```
+    - hosts: servers
+      roles:
+         - { role: username.rolename, x: 42 }
 
 License
 -------
 
-GNU AGPLv3
+BSD
+
+Author Information
+------------------
+
+An optional section for the role authors to include contact information, or a website (HTML is not allowed).
