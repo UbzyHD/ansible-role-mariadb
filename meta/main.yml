@@ -12,6 +12,9 @@ galaxy_info:
 
   platforms:
     - name: Debian
+      versions:
+        - buster
+        - stretch
 
   galaxy_tags:
     - mysql

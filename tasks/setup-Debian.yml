@@ -1,0 +1,32 @@
+---
+- name: setup-Debian.yml | Adding MariaDB apt key
+  apt_key:
+    url: https://mariadb.org/mariadb_release_signing_key.asc
+    state: present
+
+- name: setup-Debian.yml | Adding MariaDB.list
+  template:
+    src: MariaDB.list.j2
+    dest:  /etc/apt/sources.list.d/MariaDB.list
+    owner: root
+    group: root
+    mode: 0644
+
+- name: setup-Debian.yml | Installing MariaDB
+  apt:
+    name: mariadb-server
+    update_cache: true
+    autoremove: true
+    autoclean: true
+    install-recommends: false
+    state: latest
+    policy_rc_d: 101
+
+- name: setup-Debian.yml | Installing MySQL-python
+  apt:
+    name: python-mysqldb
+    update_cache: true
+    autoremove: true
+    autoclean: true
+    install-recommends: false
+    state: latest
