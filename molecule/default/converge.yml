@@ -2,6 +2,9 @@
 - name: Converge
   hosts: all
   become: true
+  gather_facts: true
+
+  pre_tasks:
 
     - name: Converge | Install Python if not already present.
       raw: test -e /usr/bin/python || (apt -y update && apt install -y python-minimal)
@@ -11,4 +14,4 @@
       setup:
 
   roles:
-    - role: ubzyhd.mariadb
+    - ubzyhd.mariadb
