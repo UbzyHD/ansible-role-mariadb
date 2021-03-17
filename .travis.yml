@@ -15,6 +15,7 @@ before_install:
 install:
   # Install test dependencies.
   - pip install molecule[docker] ansible yamllint ansible-lint docker
+  - apt install software-properties-common apt-transport-https lsb-release ca-certificates dirmngr
 
 before_script:
   # Use actual Ansible Galaxy role name for the project directory.

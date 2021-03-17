@@ -1,10 +1,8 @@
 ---
-dependencies: []
-
 galaxy_info:
   role_name: mariadb
   author: ubzyhd
-  description: Install MariaDB and provide a way of managing databases.
+  description: Install MariaDB and provide a way of managing databases
 
   license: AGPLv3
 
