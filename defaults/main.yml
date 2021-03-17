@@ -3,6 +3,8 @@ mysql_root_username: "root"
 mysql_root_password: "candy"
 #mysql_old_root_password: "apple"
 
+mariadb_repo_url: https://mirrors.ukfast.co.uk/sites/mariadb/repo/10.5/debian
+
 mariadb_database:
   - name: db_nc
     collation: utf8_unicode_ci
