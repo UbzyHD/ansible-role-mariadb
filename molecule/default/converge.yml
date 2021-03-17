@@ -7,7 +7,7 @@
   pre_tasks:
 
     - name: Converge | Install Python if not already present.
-      raw: test -e /usr/bin/python || (apt -y update && apt install -y python-apt)
+      raw: test -e /usr/bin/python3 || (apt -y update && apt install -y python3-apt)
       changed_when: false
 
     - name: Converge | Gather facts after Python is definitely present.
